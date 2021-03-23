@@ -1,0 +1,93 @@
+{
+  "suites": {
+    "title": "root",
+    "fullTitle": "root",
+    "suites": [
+      {
+        "title": "unit test suite for the File class",
+        "fullTitle": "unit test suite for the File class",
+        "suites": [],
+        "tests": [
+          {
+            "title": "test getName",
+            "fullTitle": "unit test suite for the File class test getName",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "test getContentMap",
+            "fullTitle": "unit test suite for the File class test getContentMap",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "test getSimilarityKeys",
+            "fullTitle": "unit test suite for the File class test getSimilarityKeys",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "test getSimilarityKeys",
+            "fullTitle": "unit test suite for the File class test getSimilarityKeys",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "test toString",
+            "fullTitle": "unit test suite for the File class test toString",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "test getSimilarities",
+            "fullTitle": "unit test suite for the File class test getSimilarities",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 6,
+        "fail": 0
+      },
+      {
+        "title": "unit test suite for the Parser class",
+        "fullTitle": "unit test suite for the Parser class",
+        "suites": [],
+        "tests": [
+          {
+            "title": "test getFiles",
+            "fullTitle": "unit test suite for the Parser class test getFiles",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "test getTotalSimilarityLines",
+            "fullTitle": "unit test suite for the Parser class test getTotalSimilarityLines",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "test similarity was added correctly to both files",
+            "fullTitle": "unit test suite for the Parser class test similarity was added correctly to both files",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 3,
+        "fail": 0
+      }
+    ],
+    "tests": [],
+    "pass": 0,
+    "fail": 0
+  },
+  "stats": {
+    "suites": 2,
+    "tests": 9,
+    "passes": 9,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-12-08T12:40:14.023Z",
+    "end": "2020-12-08T12:40:14.044Z",
+    "duration": 21
+  }
+}

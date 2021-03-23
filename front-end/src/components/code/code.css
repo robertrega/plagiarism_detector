@@ -1,0 +1,11 @@
+.red{
+    background-color: rgba(204, 0, 0, 0.2);
+}
+
+.red-current{
+    background-color: rgba(204, 0, 0, 0.52);
+}
+
+.file-container{
+    height: 450px;
+}

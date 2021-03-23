@@ -1,0 +1,66 @@
+
+.code-container{
+
+}
+
+.index{
+    padding-right: 10px;
+}
+
+.code-block {
+    width:400px;
+    overflow-x: auto;
+    font-size: 16px;
+    border: 1px solid rgb(244, 241, 241);
+    margin: 2px;
+    padding: 6px;
+    background: rgb(251, 251, 251);
+    color: #545454;
+    border-radius: 5px;
+
+}
+code {
+    color: black;
+
+    min-width: max-content;
+    overflow-x:visible;
+    white-space:pre-wrap;
+    display: block;
+    font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
+}
+
+ul{
+    padding-left: 10px;
+
+}
+li{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    list-style-type: none;
+    min-width: max-content;
+    overflow: visible;
+    margin-right: 4px;
+}
+
+.folder-structure{
+    padding: 10px 4px;
+    box-shadow: 0 12px 42px -4px rgba(24, 39, 75, 0.12), 0 8px 18px -6px rgba(24, 39, 75, 0.12);
+    height: max-content;
+    overflow: auto;
+}
+
+.folder-name{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    border-radius: 5px;
+}
+
+.btn-down, .btn-up{
+    width: 150px;
+
+}
+
+.next-similarity{
+    margin: auto 200px 30px auto;
+}
+.score{
+    margin-left: 230px;
+}
