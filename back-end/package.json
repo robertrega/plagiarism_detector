@@ -3,10 +3,13 @@
   "version": "3.0.0",
   "description": "Final project",
   "main": "index.ts",
+  "homepage": "http://robertrega.github.io/plagiarism_detector",
   "scripts": {
     "test": "ts-mocha --reporter ./reporters/mocha-json-reporter.js tests/*.spec.ts",
     "run": "tsc && node dist/index.js",
-    "pack": "npm-pack-zip"
+    "pack": "npm-pack-zip",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "author": "Jonathan Bell",
   "license": "ISC",
